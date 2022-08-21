@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent{
   title = 'website';
-  
+  flag = 'about';
+
+  setActive(id: string){
+    this.flag = id
+  }
 
 }
