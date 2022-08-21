@@ -11,13 +11,13 @@
       </div>
     </div>
     <div class="menu-body-format">
-      <p class="content-title"><i class="fa fa-rocket"></i> About Me</p>
-      <p class="content-title"><i class="fa-solid fa-school"></i> Education</p>
-      <p class="content-title"><i class="fa-solid fa-briefcase"></i> Experience</p>
-      <p class="content-title"><i class="fa-solid fa-file-code"></i> Projects</p>
-      <p class="content-title"><i class="fa-solid fa-terminal"></i> Skills</p>
-      <p class="content-title"><i class="fa-solid fa-people-group"></i> Extracurriculars</p>
-      <p class="content-title"><i class="fa-solid fa-trophy"></i> Awards</p>
+      <p class="content-title" [ngClass]="{'active-title': flag == 'about'}" (click)="setActive('about')"><i class="fa fa-rocket"></i> About Me</p>
+      <p class="content-title" [ngClass]="{'active-title': flag == 'education'}" (click)="setActive('education')"><i class="fa-solid fa-school"></i> Education</p>
+      <p class="content-title" [ngClass]="{'active-title': flag == 'experience'}" (click)="setActive('experience')"><i class="fa-solid fa-briefcase"></i> Experience</p>
+      <p class="content-title" [ngClass]="{'active-title': flag == 'projects'}" (click)="setActive('projects')"><i class="fa-solid fa-file-code"></i> Projects</p>
+      <p class="content-title" [ngClass]="{'active-title': flag == 'skills'}" (click)="setActive('skills')"><i class="fa-solid fa-terminal"></i> Skills</p>
+      <p class="content-title" [ngClass]="{'active-title': flag == 'extracurriculars'}" (click)="setActive('extracurriculars')"><i class="fa-solid fa-people-group"></i> Extracurriculars</p>
+      <p class="content-title" [ngClass]="{'active-title': flag == 'awards'}" (click)="setActive('awards')"><i class="fa-solid fa-trophy"></i> Awards</p>
     </div>
     <div class="nav-footer-content">
       <div class="footer-title">
@@ -31,6 +31,12 @@
     </div>
 </div>
 <div class="page-content p-5" id="content">
-  <app-about-me></app-about-me>
+  <div *ngIf="flag === 'about'"><app-about-me></app-about-me></div>
+  <div *ngIf="flag === 'education'"><app-education></app-education></div>
+  <div *ngIf="flag === 'experience'"><app-experience></app-experience></div>
+  <div *ngIf="flag === 'projects'"><app-projects></app-projects></div>
+  <div *ngIf="flag === 'skills'"><app-skills></app-skills></div>
+  <div *ngIf="flag === 'extracurriculars'"><app-extracurriculars></app-extracurriculars></div>
+  <div *ngIf="flag === 'awards'"><app-awards></app-awards></div>
 </div>
 
