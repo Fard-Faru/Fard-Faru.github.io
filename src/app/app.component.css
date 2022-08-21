@@ -11,16 +11,20 @@
   }
   .title-content{
     color: rgb(255, 255, 255);
-    padding-left: 50px;
+    padding-left: 40px;
     padding-top: 10px;
   }
-  .menu-format{
-    padding-left: 50px;
+  .menu-body-format{
+    padding-left: 20px;
     padding-top: 10px;
     font-size: 28px;
     font-weight: 500;
     opacity: 0.5;
     color: white;
+  }
+  .subtitle-content{
+    color: rgb(255, 255, 255);
+    padding-left: px;
   }
 
 
