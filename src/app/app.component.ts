@@ -12,5 +12,4 @@ export class AppComponent{
   setActive(id: string){
     this.flag = id
   }
-
 }
