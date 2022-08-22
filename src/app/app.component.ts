@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent{
   title = 'website';
-  flag = 'about';
+  flag = 'experience';
 
   setActive(id: string){
     this.flag = id
