@@ -1,0 +1,41 @@
+.edu-container{
+    margin-bottom: 10px;
+}
+.title{
+    font-weight: 1000;
+    font-size: 54px;
+    margin-bottom: 14px;
+}
+.uni-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.uni-degree{
+    color: gray;
+    font-weight: 500;
+    font-size: 22px;
+}
+.dates{
+    font-weight: 400;
+    font-size: 28px;
+}
+.first-line{
+    justify-content: space-between;
+}
+.description-container{
+    padding: 20px 30px;
+    font-size: 18px;
+}
+.location{
+    color: gray;
+    font-weight: 500;
+    font-size: 22px;
+    align-items: end;
+    justify-content: end;
+}
+.link-ref{
+    text-decoration: none;
+}
+.link-ref:hover{
+    text-decoration: underline;
+}
