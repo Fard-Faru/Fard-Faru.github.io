@@ -20,7 +20,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/assets",
-              "src/assests/temp.pdf"
+              "src/assests/FardinFaruk.pdf"
             ],
             "styles": [
               "src/styles.css",
@@ -91,7 +91,7 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/assets",
-              "src/assests/temp.pdf"
+              "src/assests/FardinFaruk.pdf"
             ],
             "styles": [
               "src/styles.css",

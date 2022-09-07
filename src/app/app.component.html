@@ -16,7 +16,7 @@
       <p class="content-title" [ngClass]="{'active-title': flag == 'experience'}" (click)="setActive('experience')"><i class="fa-solid fa-briefcase"></i> Experience</p>
       <p class="content-title" [ngClass]="{'active-title': flag == 'projects'}" (click)="setActive('projects')"><i class="fa-solid fa-file-code"></i> Projects</p>
       <p class="content-title" [ngClass]="{'active-title': flag == 'skills'}" (click)="setActive('skills')"><i class="fa-solid fa-terminal"></i> Skills</p>
-      <p class="content-title" [ngClass]="{'active-title': flag == 'extracurriculars'}" (click)="setActive('extracurriculars')"><i class="fa-solid fa-people-group"></i> Extracurriculars</p>
+      <!-- <p class="content-title" [ngClass]="{'active-title': flag == 'extracurriculars'}" (click)="setActive('extracurriculars')"><i class="fa-solid fa-people-group"></i> Extracurriculars</p> -->
       <p class="content-title" [ngClass]="{'active-title': flag == 'awards'}" (click)="setActive('awards')"><i class="fa-solid fa-trophy"></i> Awards</p>
     </div>
     <div class="nav-footer-content">
@@ -36,6 +36,6 @@
   <div *ngIf="flag === 'experience'"><app-experience></app-experience></div>
   <div *ngIf="flag === 'projects'"><app-projects></app-projects></div>
   <div *ngIf="flag === 'skills'"><app-skills></app-skills></div>
-  <div *ngIf="flag === 'extracurriculars'"><app-extracurriculars></app-extracurriculars></div>
+  <!-- <div *ngIf="flag === 'extracurriculars'"><app-extracurriculars></app-extracurriculars></div> -->
   <div *ngIf="flag === 'awards'"><app-awards></app-awards></div>
 </div>
