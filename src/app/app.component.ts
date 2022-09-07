@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent{
-  title = 'about';
-  flag = 'experience';
+  title = 'website';
+  flag = 'about';
 
   setActive(id: string){
     this.flag = id
